@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    background: silver;
+    font-family: Verdana, sans-serif;
+}
+
+.header {
+    padding: 20px;
+    background: #355b81;
+}
+
+.header a {
+    text-decoration: none;
+    background-color: #4e7091;
+    padding: 10px;
+    color: white;
+}
+
+.header a:hover {
+    text-decoration: underline;
+    background-color: #8199b0;
+}
+
+.content {
+    background: #fff;
+    padding: 20px;
+}
+
+.footer {
+    text-align: right;
+    background: #355b81;
+    padding: 20px;
+    color: #fff;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+select {
+    margin-bottom: 10px;
+    margin-left: -5px;
+}
+
+label {
+    display: inline-block;
+    width: 80px;
+}
+
+input[type=text], [type=password] {
+    padding: 5px;
+    border: 2px solid #ccc;
+}
+
+input[type=text]:focus, [type=password]:focus {
+    border-color: #333;
+}
+
+input[type=submit] {
+    padding: 5px 15px;
+    background: #ccc;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 0 none;
+    cursor: pointer;
+}
+
+select {
+    padding: 5px;
+    border: 2px solid #ccc;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+table thead td {
+    background-color: #f5f5f5;
+    padding: 4px 10px;
+    font-weight: bold;
+}
+
+table tbody td {
+    padding: 4px 10px;
+}
+
+.type_block {
+    display: none;
+}
+
+.container {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 33px;
+}
+
+.grid-container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.grid-item {
+    margin: 40px;
+    border: solid 2px black;
+    width: 180px;
+    text-align: center;
+}
+
+.grid-item img {
+    width: 128px;
+    margin-bottom: 10px;
+}
+
+.chk-item {
+    position: absolute;
+}
+
+.chk-item input {
+    margin: 10px;
+    float: left;
+    clear: both;
+}
+
+p {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+span {
+    padding: 3px;
+    background-color: #ffff66;
+}
