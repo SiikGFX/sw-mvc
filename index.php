@@ -6,6 +6,8 @@
  * Time: 20:07
  */
 
+//testing some stuff <--- delete this later
+
 require_once 'application/libs/application.php';
 require 'application/libs/controller.php';
 require_once 'application/libs/model.php';
